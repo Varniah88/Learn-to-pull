@@ -1,0 +1,16 @@
+abstract class Animal{  
+  abstract void eat();  
+}
+  
+class Dog extends Animal{
+  
+void eat(){
+System.out.println("it will hunt and eat");
+}
+  
+public static void main(String args[]){  
+ Animal obj = new Dog();  
+ obj.eat();  
+}
+  
+}  
